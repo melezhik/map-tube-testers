@@ -7,14 +7,13 @@ automatic tests for map-tube modules
 
     carton
 
-# run tests
+# run all tests
 
     carton exec strun
 
-# run tests against a distinct city
+# run a single story
 
-
-    carton exec strun --story london
+    carton exec strun --story london/shortest-routes/
 
 
 

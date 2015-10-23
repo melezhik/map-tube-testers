@@ -1,7 +1,6 @@
-#!/usr/bin/perl
+run_story('london/map');
 
-use strict; use warnings;
-use Map::Tube::London;
+
 my $r;
 our @routes = ();
 
