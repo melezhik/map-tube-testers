@@ -337,21 +337,6 @@ DISTRIBUTIONS
       Test::More 0
       namespace::clean 0.24
       perl 5.006
-  Map-Tube-SaintPetersburg-0.05
-    pathname: S/SK/SKIM/Map-Tube-SaintPetersburg-0.05.tar.gz
-    provides:
-      Map::Tube::SaintPetersburg 0.05
-    requirements:
-      Encode 0
-      English 0
-      ExtUtils::MakeMaker 6.36
-      File::Share 0
-      Map::Tube 3.06
-      Moo 0
-      Test::Map::Tube 0.06
-      Test::More 0
-      Test::NoWarnings 0
-      namespace::clean 0
   Module-Build-0.4214
     pathname: L/LE/LEONT/Module-Build-0.4214.tar.gz
     provides:
@@ -540,28 +525,6 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0.88
-  Test-Map-Tube-0.12
-    pathname: M/MA/MANWAR/Test-Map-Tube-0.12.tar.gz
-    provides:
-      Test::Map::Tube 0.12
-    requirements:
-      ExtUtils::MakeMaker 0
-      Map::Tube 3.09
-      Test::Builder 1.001014
-      Test::More 0
-      XML::Twig 3.48
-      perl 5.006
-  Test-NoWarnings-1.04
-    pathname: A/AD/ADAMK/Test-NoWarnings-1.04.tar.gz
-    provides:
-      Test::NoWarnings 1.04
-      Test::NoWarnings::Warning 1.04
-    requirements:
-      ExtUtils::MakeMaker 0
-      Test::Builder 0.86
-      Test::More 0.47
-      Test::Tester 0.107
-      perl 5.006
   Test-Simple-1.001014
     pathname: E/EX/EXODIST/Test-Simple-1.001014.tar.gz
     provides:
