@@ -470,10 +470,10 @@ DISTRIBUTIONS
       IO::Uncompress::Gunzip 0
       URI 0
       perl 5.006002
-  Outthentic-0.0.3
-    pathname: M/ME/MELEZHIK/Outthentic-0.0.3.tar.gz
+  Outthentic-0.0.5
+    pathname: M/ME/MELEZHIK/Outthentic-0.0.5.tar.gz
     provides:
-      Outthentic 0.000003
+      Outthentic 0.000005
       Outthentic::Story undef
     requirements:
       ExtUtils::MakeMaker 6.36
