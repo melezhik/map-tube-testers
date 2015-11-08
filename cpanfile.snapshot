@@ -470,16 +470,23 @@ DISTRIBUTIONS
       IO::Uncompress::Gunzip 0
       URI 0
       perl 5.006002
-  Outthentic-0.0.5
-    pathname: M/ME/MELEZHIK/Outthentic-0.0.5.tar.gz
+  Outthentic-0.0.8
+    pathname: M/ME/MELEZHIK/Outthentic-0.0.8.tar.gz
     provides:
-      Outthentic 0.000005
+      Outthentic 0.000008
       Outthentic::Story undef
     requirements:
       ExtUtils::MakeMaker 6.36
       File::Temp 0
+      Outthentic::DSL v0.0.3
       Test::Harness 0
       Test::More 0
+  Outthentic-DSL-0.0.3
+    pathname: M/ME/MELEZHIK/Outthentic-DSL-0.0.3.tar.gz
+    provides:
+      Outthentic::DSL 0.000003
+    requirements:
+      ExtUtils::MakeMaker 6.36
   Package-Stash-0.37
     pathname: D/DO/DOY/Package-Stash-0.37.tar.gz
     provides:
