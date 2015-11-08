@@ -1,31 +1,15 @@
 run_story('london/map');
+use common;
+
+my $tube = Map::Tube::London->new;
 
 my $r;
-my $tube = Map::Tube::London->new;
-my @list;
 
-while (<DATA>) {
-
-    chomp;
-    next if /^\#/;
-
-    my ($r_id, $from, $to, $expected) = split /\|/;
-    my $route =  join "\n", map {$_->name} @{$tube->get_shortest_route($from,$to)->nodes};
-
-    $r.= "$r_id\n";
-    $r.="$route\n\n";
-
-    push @list, "validator: [ 1, qq{$from ... $to} ]";
-    push @list, "begin:";
-    push @list, "$r_id";
-    push @list, (split /,/, $expected);
-    push @list, "end:";
-
-}
+my $list = data_to_routes($tube, \$r); 
 
 set_stdout($r);
 
-sub generator { [@list] }
+sub generator { $list }
 
 
 1;
