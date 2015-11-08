@@ -256,19 +256,19 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
-  Map-Tube-3.10
-    pathname: M/MA/MANWAR/Map-Tube-3.10.tar.gz
+  Map-Tube-3.12
+    pathname: M/MA/MANWAR/Map-Tube-3.12.tar.gz
     provides:
-      Map::Tube 3.10
-      Map::Tube::Line 3.10
-      Map::Tube::Node 3.10
-      Map::Tube::Pluggable 3.10
-      Map::Tube::Route 3.10
-      Map::Tube::Table 3.10
-      Map::Tube::Utils 3.10
+      Map::Tube 3.12
+      Map::Tube::Line 3.12
+      Map::Tube::Node 3.12
+      Map::Tube::Pluggable 3.12
+      Map::Tube::Route 3.12
+      Map::Tube::Table 3.12
+      Map::Tube::Utils 3.12
     requirements:
       ExtUtils::MakeMaker 0
-      Map::Tube::Exception 3.05
+      Map::Tube::Exception 3.06
       Module::Pluggable 5.1
       Moo 2.000000
       Moo::Role 2.000000
@@ -279,31 +279,50 @@ DISTRIBUTIONS
       namespace::clean 0.24
       overload 0
       perl 5.006
-  Map-Tube-Exception-3.05
-    pathname: M/MA/MANWAR/Map-Tube-Exception-3.05.tar.gz
+  Map-Tube-Barcelona-0.25
+    pathname: M/MA/MANWAR/Map-Tube-Barcelona-0.25.tar.gz
     provides:
-      Map::Tube::Exception 3.05
-      Map::Tube::Exception::DuplicateStationId 3.05
-      Map::Tube::Exception::DuplicateStationName 3.05
-      Map::Tube::Exception::FoundMultiLinedStation 3.05
-      Map::Tube::Exception::FoundMultiLinkedStation 3.05
-      Map::Tube::Exception::FoundSelfLinkedStation 3.05
-      Map::Tube::Exception::FoundUnsupportedMap 3.05
-      Map::Tube::Exception::FoundUnsupportedObject 3.05
-      Map::Tube::Exception::InvalidLineId 3.05
-      Map::Tube::Exception::InvalidLineName 3.05
-      Map::Tube::Exception::InvalidNodeObject 3.05
-      Map::Tube::Exception::InvalidStationId 3.05
-      Map::Tube::Exception::InvalidStationName 3.05
-      Map::Tube::Exception::InvalidSupportedObject 3.05
-      Map::Tube::Exception::MissingLineId 3.05
-      Map::Tube::Exception::MissingLineName 3.05
-      Map::Tube::Exception::MissingNodeObject 3.05
-      Map::Tube::Exception::MissingPluginGraph 3.05
-      Map::Tube::Exception::MissingStationId 3.05
-      Map::Tube::Exception::MissingStationName 3.05
-      Map::Tube::Exception::MissingSupportedMap 3.05
-      Map::Tube::Exception::MissingSupportedObject 3.05
+      Map::Tube::Barcelona 0.25
+      Map::Tube::Barcelona::Line::L11 0.25
+      Map::Tube::Barcelona::Line::L3 0.25
+      Map::Tube::Barcelona::Line::L4 0.25
+      Map::Tube::Barcelona::Line::L8 0.25
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Share 0.25
+      File::ShareDir::Install 0
+      Map::Tube 3.01
+      Moo 2.000000
+      Test::More 0
+      namespace::clean 0.24
+      perl 5.006
+  Map-Tube-Exception-3.06
+    pathname: M/MA/MANWAR/Map-Tube-Exception-3.06.tar.gz
+    provides:
+      Map::Tube::Exception 3.06
+      Map::Tube::Exception::DuplicateStationId 3.06
+      Map::Tube::Exception::DuplicateStationName 3.06
+      Map::Tube::Exception::FoundMultiLinedStation 3.06
+      Map::Tube::Exception::FoundMultiLinkedStation 3.06
+      Map::Tube::Exception::FoundSelfLinkedStation 3.06
+      Map::Tube::Exception::FoundUnsupportedMap 3.06
+      Map::Tube::Exception::FoundUnsupportedObject 3.06
+      Map::Tube::Exception::InvalidLineId 3.06
+      Map::Tube::Exception::InvalidLineName 3.06
+      Map::Tube::Exception::InvalidNodeObject 3.06
+      Map::Tube::Exception::InvalidStationId 3.06
+      Map::Tube::Exception::InvalidStationName 3.06
+      Map::Tube::Exception::InvalidSupportedObject 3.06
+      Map::Tube::Exception::MissingLineId 3.06
+      Map::Tube::Exception::MissingLineName 3.06
+      Map::Tube::Exception::MissingNodeObject 3.06
+      Map::Tube::Exception::MissingPluginFormatter 3.06
+      Map::Tube::Exception::MissingPluginFuzzyFind 3.06
+      Map::Tube::Exception::MissingPluginGraph 3.06
+      Map::Tube::Exception::MissingStationId 3.06
+      Map::Tube::Exception::MissingStationName 3.06
+      Map::Tube::Exception::MissingSupportedMap 3.06
+      Map::Tube::Exception::MissingSupportedObject 3.06
     requirements:
       ExtUtils::MakeMaker 0
       Moo 2.000000
@@ -333,6 +352,23 @@ DISTRIBUTIONS
       File::Share 0.25
       File::ShareDir::Install 0
       Map::Tube 3.01
+      Moo 2.000000
+      Test::More 0
+      namespace::clean 0.24
+      perl 5.006
+  Map-Tube-NYC-0.26
+    pathname: M/MA/MANWAR/Map-Tube-NYC-0.26.tar.gz
+    provides:
+      Map::Tube::NYC 0.26
+      Map::Tube::NYC::Line::INDCrosstown 0.26
+      Map::Tube::NYC::Line::INDEighthAvenue 0.26
+      Map::Tube::NYC::Line::INDSixthAvenue 0.26
+      Map::Tube::NYC::Line::IRTFlushing 0.26
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Share 0.25
+      File::ShareDir::Install 0.09
+      Map::Tube 3.12
       Moo 2.000000
       Test::More 0
       namespace::clean 0.24

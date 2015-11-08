@@ -1,11 +1,9 @@
 run_story('nyc/map');
 use common;
 
-my $tube = Map::Tube::NYC->new;
-
 my $r;
 
-my $list = data_to_routes($tube, \$r); 
+my $list = data_to_routes(our $map, \$r); 
 
 set_stdout($r);
 

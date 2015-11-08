@@ -1,4 +1,5 @@
 package common;
+
 1;
 
 package main;
