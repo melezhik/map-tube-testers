@@ -356,6 +356,19 @@ DISTRIBUTIONS
       Test::More 0
       namespace::clean 0.24
       perl 5.006
+  Map-Tube-Lyon-0.06
+    pathname: G/GW/GWS/Map-Tube-Lyon-0.06.tar.gz
+    provides:
+      Map::Tube::Lyon 0.06
+    requirements:
+      ExtUtils::MakeMaker 6.64
+      File::Share 0
+      File::ShareDir::Install 0
+      Map::Tube 2.72
+      Moo 0
+      Test::More 0.82
+      namespace::clean 0
+      perl 5.006
   Map-Tube-NYC-0.26
     pathname: M/MA/MANWAR/Map-Tube-NYC-0.26.tar.gz
     provides:
