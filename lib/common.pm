@@ -3,6 +3,7 @@ package common;
 1;
 
 package main;
+use utf8;
 
 sub data_to_routes {
 
@@ -18,7 +19,7 @@ sub data_to_routes {
         next if /^\#/;
     
         my ($r_id, $from, $to, $expected) = split /\|/;
-        my $route =  join "\n", map {$_->name} @{$tube->get_shortest_route($from,$to)->nodes};
+        my $route =  join "\n", map { my $a = $_->name; utf8::encode($a); $a } @{$tube->get_shortest_route($from,$to)->nodes};
     
         ${$s_ref}.= "$r_id\n";
         ${$s_ref}.="$route\n\n";
@@ -31,8 +32,6 @@ sub data_to_routes {
     
     }
 
-    set_stdout();
-    
     return [@list];
     
 }

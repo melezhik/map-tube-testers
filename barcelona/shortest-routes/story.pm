@@ -14,5 +14,5 @@ sub generator { $list }
 1;
 
 __DATA__
-Route 1|Roquetes|Maragall|Roquetes,Trinitat Nova,Via JÃºlia,Llucmajor,Maragall
-Route 2|roquetes|maragall|Roquetes,Trinitat Nova,Via JÃºlia,Llucmajor,Maragall
+Route 1|Roquetes|Maragall|Roquetes,Trinitat Nova,Via Júlia,Llucmajor,Maragall
+Route 2|roquetes|maragall|Roquetes,Trinitat Nova,Via Júlia,Llucmajor,Maragall
