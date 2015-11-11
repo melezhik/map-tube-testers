@@ -32,30 +32,31 @@ Where:
 
 * route_id - unique key for route, just a string
 
-F.e. ROUTE_1
+F.e. `Route 1`
 
 * start station name
 
-F.e.  Wembley Central
+F.e.  `Wembley Central`
 
 * destination station name
 
-F.e. Bond Street
+F.e. `Bond Street`
 
 * intermediate stations list
 
-F.e. Wembley Central,Stonebridge Park,Harlesden,Willesdon Junction,Shepherd's    Bush,Holland Park,Notting Hill Gate,Queensway,Lancaster Gate,Marble Arch,
+a list of stattion between start station and destination station, separated by comma sign. 
+
+F.e. `Wembley Central,Stonebridge Park,Harlesden,Willesdon Junction,Shepherd's    Bush,Holland Park,Notting Hill Gate,Queensway,Lancaster Gate,Marble Arch`
 
 A full exmaple is here:
 
-* map class:
+Map class - `Map::Tube::London`
 
-Map::Tube::London
-
-* shortest routes list:
+Shortest routes list:
 
     Route 1|Wembley Central|Bond Street|Wembley Central,Stonebridge Park,Harlesden,Willesdon Junction,Shepherd's    Bush,Holland Park,Notting Hill Gate,Queensway,Lancaster Gate,Marble Arch,Bond Street
     Route 2|Bond Street|Euston|Bond Street,Oxford Circus,Warren Street,Euston
+    
 
 
 
