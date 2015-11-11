@@ -21,10 +21,12 @@ automatic tests for map-tube modules
 Please create an issue or write me, providing following information:
 
 * map class
-F.e. Map::Tube::London
+
+F.e. `Map::Tube::London`
 
 * shortest routes list.
-A shortest routes list should confirm this format:
+
+Should confirm the format:
 
 `$route_id|$start_station_name|$destination_station_name|$start_station_name,$a,$b,$c,...$destination_station_name`
 
