@@ -24,7 +24,7 @@ Please create an issue or write me, providing following information:
 
 F.e. `Map::Tube::London`
 
-* shortest routes list.
+* shortest routes list
 
 Should confirm the format:
 
@@ -32,9 +32,9 @@ Should confirm the format:
 
 Where:
 
-* route_id - unique key for route, just a string
+* route_id 
 
-F.e. `Route 1`
+Unique key for route, just a string. F.e. `Route 1`
 
 * start station name
 
@@ -46,7 +46,7 @@ F.e. `Bond Street`
 
 * intermediate stations list
 
-a list of stattion between start station and destination station, separated by comma sign. 
+A list of stattion between start station and destination station, separated by comma sign. 
 
 F.e. `Wembley Central,Stonebridge Park,Harlesden,Willesdon Junction,Shepherd's    Bush,Holland Park,Notting Hill Gate,Queensway,Lancaster Gate,Marble Arch`
 
