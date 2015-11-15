@@ -530,10 +530,10 @@ DISTRIBUTIONS
       Outthentic::DSL v0.0.3
       Test::Harness 0
       Test::More 0
-  Outthentic-DSL-0.0.3
-    pathname: M/ME/MELEZHIK/Outthentic-DSL-0.0.3.tar.gz
+  Outthentic-DSL-0.0.4
+    pathname: M/ME/MELEZHIK/Outthentic-DSL-0.0.4.tar.gz
     provides:
-      Outthentic::DSL 0.000003
+      Outthentic::DSL 0.000004
     requirements:
       ExtUtils::MakeMaker 6.36
   Package-Stash-0.37

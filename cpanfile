@@ -1,3 +1,4 @@
+requires 'Outthentic::DSL', '>= 0.0.4';
 requires 'Outthentic', '>= 0.0.8';
 
 requires 'Map::Tube::London';

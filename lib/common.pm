@@ -28,9 +28,9 @@ sub data_to_routes {
         push @list, "validator: [ 1, qq{$from ... $to} ]";
         push @list, "begin:";
         push @list, "$r_id";
-        push @list, "<<<";
-        push @list, (split /,/, $expected);
         push @list, ">>>";
+        push @list, (split /,/, $expected);
+        push @list, "<<<";
         push @list, "end:";
     
     }
